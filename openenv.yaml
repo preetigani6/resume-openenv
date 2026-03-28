@@ -1,0 +1,13 @@
+name: resume-openenv
+description: Resume screening OpenEnv environment
+
+observation_space:
+  task: string
+  progress: float
+
+action_space:
+  action_type: string
+
+reward:
+  score: float
+  done: boolean
